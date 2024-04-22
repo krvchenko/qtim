@@ -1,0 +1,89 @@
+$green-color: #309B44;
+$green-light-color: #25C685;
+
+$danger-color: #EE3737;
+$danger-light-color: #FF5C5C;
+
+$grape-color: #5965B3;
+$grape-light-color: #8890C9;
+
+$orange-color: #F76707;
+$orange-light-color: #F89F64;
+
+$purple-color: #862E9C;
+$purple-light-color: #B177BF;
+
+$indigo-color: #4986CC;
+$indigo-light-color: #7CA7D8;
+
+$blue-color: #0C8599;
+$blue-light-color: #61AAB6;
+
+$red-color: #E03185;
+$red-light-color: #E26BA4;
+
+$yellow-color: #FAB005;
+$yellow-light-color: #FAB005;
+
+$pressure-color: #FAFAFA;
+$pressure-light-color: #F2F2F2;
+
+$secondary-color: #2B2B2A;
+$secondary-light-color: #464644;
+
+$primary-color: #101010;
+$primary-color-hover: #101010;
+$background-color: #111111;
+$form-border-color: #212121;
+$form-border-color-hover: #383838;
+$form-background-color: #151515;
+$form-background-color-hover: #1B1B1B;
+$form-foreground-color: #868686;
+
+$colors: (
+    'green': (
+        'default': $green-color,
+        'light': $green-light-color,
+    ),
+    'grape': (
+        'default': $grape-color,
+        'light': $grape-light-color,
+    ),
+    'orange': (
+        'default': $orange-color,
+        'light': $orange-light-color,
+    ),
+    'purple': (
+        'default': $purple-color,
+        'light': $purple-light-color,
+    ),
+    'indigo': (
+        'default': $indigo-color,
+        'light': $indigo-light-color,
+    ),
+    'blue': (
+        'default': $blue-color,
+        'light': $blue-light-color,
+    ),
+    'red': (
+        'default': $red-color,
+        'light': $red-light-color,
+    ),
+    'yellow': (
+        'default': $yellow-color,
+        'light': $yellow-light-color,
+    ),
+    'danger': (
+        'default': $danger-color,
+        'light': $danger-light-color,
+    ),
+    'pressure': (
+        'default': $pressure-color,
+        'light': $pressure-light-color,
+
+    ),
+    'secondary': (
+        'default': $secondary-color,
+        'light': $secondary-light-color,
+    ),
+);

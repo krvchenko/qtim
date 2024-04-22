@@ -1,0 +1,44 @@
+.progress {
+  &-bar {
+    width: 50px;
+    height: 50px;
+    min-width: 50px;
+    min-height: 50px;
+    border-radius: 50%;
+  }
+
+  &-block {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+
+    &-content {
+      display: flex;
+      flex-flow: column;
+      gap: 10px;
+
+      & p {
+        font-weight: 500;
+        color: $form-foreground-color;
+        font-size: 14px;
+        margin: 0;
+      }
+
+      & h3 {
+        font-weight: 600;
+        color: white;
+        font-size: 22px;
+        margin: 0;
+      }
+    }
+  }
+
+  &-loader {
+    animation: 0.75s linear infinite spinner-border;
+  
+    &-statistic {
+      animation: 0.75s linear infinite spinner-border;
+      margin-top: 50px;
+    }
+  }
+}
